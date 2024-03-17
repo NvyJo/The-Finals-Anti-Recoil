@@ -11,10 +11,12 @@ TTS should tell you what is selected
 - F1 - Disabled
 - F2 - M11
 - F3 - XP-54
-- F4 - AKM
-- F5 - FCAR
-- F6 - M60
-- F7 - Lewis Gun
+- F4 - 93R
+- F5 - AKM
+- F6 - FCAR
+- F7 - FAMAS
+- F8 - M60
+- F9 - Lewis Gun
 - End - Closes Program\
 ![](https://i.imgur.com/BdLLhBL.png)
 > Patterns could be improved (especially for Lewis gun and M60)

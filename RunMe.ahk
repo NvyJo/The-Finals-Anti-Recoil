@@ -29,8 +29,12 @@ initialise:
 
     global m11 := [LoadPattern("M11.txt"), 60]
     global xp54 := [LoadPattern("XP54.txt"), 68]
+    global r93 := [LoadPattern("93R.txt"), 64]
+
     global akm := [LoadPattern("AKM.txt"), 99]
     global fcar := [LoadPattern("FCAR.txt"), 111]
+    global famas := [LoadPattern("FAMAS.txt"), 52]
+
     global m60 := [LoadPattern("M60.txt"), 100]
     global lewisgun := [LoadPattern("LGUN.txt"), 114]
 
@@ -125,39 +129,53 @@ ToRadians(num)
 ~$*F2::
 {
     SetGun(m11)
-    Speak("M11 Selected")
+    Speak("M11 selected")
     Return
 }
 
 ~$*F3::
 {
     SetGun(xp54)
-    Speak("XP54 Selected")
+    Speak("XP54 selected")
     Return
 }
 
 ~$*F4::
 {
-    SetGun(akm)
-    Speak("AKM Selected")
+    SetGun(r93)
+    Speak("9 3R selected")
     Return
 }
 
 ~$*F5::
+{
+    SetGun(akm)
+    Speak("AKM selected")
+    Return
+}
+
+~$*F6::
 {
     SetGun(fcar)
     Speak("F-CAR selected")
     Return
 }
 
-~$*F6::
+~$*F7::
+{
+    SetGun(famas)
+    Speak("Famas selected")
+    Return
+}
+
+~$*F8::
 {
     SetGun(m60)
     Speak("M60 selected")
     Return
 }
 
-~$*F7::
+~$*F9::
 {
     SetGun(lewisgun)
     Speak("Lewis gun selected")
